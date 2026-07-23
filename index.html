@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>ESCA - Women Perfumes</title>
+    <title>ESCA Perfumes | Luxury Scents</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>ESCA</h1>
+    <h1><span id="admin-trigger" style="cursor: default; user-select: none;">ESCA</span></h1>
     <nav>
         <a href="index.html">Home</a>
         <a href="men.html">Men</a>
@@ -19,29 +19,13 @@
 </header>
 
 <main>
-    <section class="collection">
-        <h2>Women Perfumes Collection</h2>
-        <div class="products-grid">
-            <div class="perfume-card" data-product="Amber Dusk">
-                <img src="women1.jpg.png" alt="Amber Dusk">
-                <h3>Amber Dusk</h3>
-                <span>Starts from 450 L.E</span>
-            </div>
-            <div class="perfume-card" data-product="the pink peak">
-                <img src="women2.jpg.jpeg" alt="the pink peak">
-                <h3>the pink peak</h3>
-                <span>Starts from 400 L.E</span>
-            </div>
-            <div class="perfume-card" data-product="velvet sin">
-                <img src="women3.jpg.jpeg" alt="velvet sin">
-                <h3>velvet sin</h3>
-                <span>Starts from 420 L.E</span>
-            </div>
-            <div class="perfume-card" data-product="italian love">
-                <img src="women4.jpg.jpeg" alt="italian love">
-                <h3>italian love</h3>
-                <span>Starts from 500 L.E</span>
-            </div>
+    <section class="home">
+        <h2>LUXURY IN EVERY SCENT</h2>
+        <div class="line"></div>
+        <p>Discover timeless fragrances crafted for elegance, beauty and identity.</p>
+        <div class="home-buttons">
+            <a href="men.html"><button>MEN PERFUMES</button></a>
+            <a href="women.html"><button>WOMEN PERFUMES</button></a>
         </div>
     </section>
 </main>
@@ -50,7 +34,7 @@
     <p>ESCA — Timeless Fragrances | Crafted with elegance © 2025</p>
 </footer>
 
-<!-- MODAL -->
+<!-- MODAL (PRODUCT LARGE POPUP) -->
 <div id="productModal" class="modal-overlay">
     <div class="product-modal">
         <div class="modal-close" id="closeModalBtn">✕</div>
@@ -67,14 +51,14 @@
                 </div>
                 <div class="fragrance-notes" id="fragranceNotesBox">
                     <h4>✨ Fragrance notes</h4>
-                    <p id="notesText">Experience the signature ESCA blend.</p>
+                    <p id="notesText">Experience the signature ESCA blend. Top, heart & base notes carefully selected.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<!-- CART -->
+<!-- CART SIDEBAR -->
 <div id="cartSidebar" class="cart-sidebar">
     <div class="cart-header">
         <h2>Your Cart</h2>
@@ -97,7 +81,6 @@
     
     <button class="place-order-btn" id="whatsappOrderBtn">📲 Place Order via WhatsApp</button>
 </div>
-
 <!-- 1. استدعاء مكتبات فايربيز الأساسية -->
 <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
@@ -114,7 +97,9 @@
     measurementId: "G-6FMXDCWFWV"
   };
 
+  // تشغيل الفايربيز بالطريقة العادية (Compat)
   firebase.initializeApp(firebaseConfig);
+  // تعريف متغير قاعدة البيانات عشان ملف الـ script يشوفه علطول
   var db = firebase.firestore();
 </script>
 
