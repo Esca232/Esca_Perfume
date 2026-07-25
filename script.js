@@ -26,7 +26,7 @@ const productsDB = {
         notes: "🌿 TOP NOTES:\n• Bergamot\n• Neroli\n• Green Mandarin\n\n🌸 HEART NOTES:\n• Marine Accord\n• Rosemary\n• Jasmine\n\n🪵 BASE NOTES:\n• Musk\n• Patchouli\n• Amber\n\n✨ Fresh and invigorating like an ocean breeze. Perfect for daily wear and summer days. Captures the essence of freedom and energy."
     },
      "tropic golden": {
-        img: "men4.jpg",
+        img: "men4.jpeg",
         price50: 625,
         price100: 899,
         notes: "🌿 TOP NOTES:\n• pineapple\n• bergamot\n• grapefruit\n\n🌸 HEART NOTES:\n•  jasmine\n• patchouli\n• cedarwood\n\n🪵 BASE NOTES:\n• Musk\n• clearwood\n• oakmoss\n\n✨ Fresh and invigorating like an ocean breeze. Perfect for daily wear and summer days. Captures the essence of freedom and energy."
