@@ -11,7 +11,7 @@ const productsDB = {
         img: "men1.jpg.jpeg",
         price50: 625,
         price100: 899,
-        notes: "🌿 TOP NOTES:\n• Bergamot - Italian citrus freshness\n• Lemon - Sparkling and bright\n• Pink Pepper - Spicy and vibrant\n\n🌸 HEART NOTES:\n• Lavender - Calming aromatic\n• Geranium - Green floral touch\n• Nutmeg - Warm spicy nuance\n\n🪵 BASE NOTES:\n• Cedarwood - Woody elegance\n• Amber - Rich and sensual\n• Patchouli - Earthy depth\n\n✨ A sophisticated fragrance for the modern gentleman. Long-lasting silage with 8+ hours performance. Perfect for evening events and special occasions."
+        notes: "APEX inspired by invictus elixir🌿 TOP NOTES:\n• Bergamot - Italian citrus freshness\n• Lemon - Sparkling and bright\n• Pink Pepper - Spicy and vibrant\n\n🌸 HEART NOTES:\n• Lavender - Calming aromatic\n• Geranium - Green floral touch\n• Nutmeg - Warm spicy nuance\n\n🪵 BASE NOTES:\n• Cedarwood - Woody elegance\n• Amber - Rich and sensual\n• Patchouli - Earthy depth\n\n✨ A sophisticated fragrance for the modern gentleman. Long-lasting silage with 8+ hours performance. Perfect for evening events and special occasions."
     },
     "Horizon": {
         img: "men2.jpg.jpeg",
@@ -23,38 +23,38 @@ const productsDB = {
         img: "men3.jpg.jpeg",
         price50: 625,
         price100: 899,
-        notes: "🌿 TOP NOTES:\n• Bergamot\n• Neroli\n• Green Mandarin\n\n🌸 HEART NOTES:\n• Marine Accord\n• Rosemary\n• Jasmine\n\n🪵 BASE NOTES:\n• Musk\n• Patchouli\n• Amber\n\n✨ Fresh and invigorating like an ocean breeze. Perfect for daily wear and summer days. Captures the essence of freedom and energy."
+        notes: "CRYSTAL WAVE inspired by aqua di gio🌿 TOP NOTES:\n• Bergamot\n• Neroli\n• Green Mandarin\n\n🌸 HEART NOTES:\n• Marine Accord\n• Rosemary\n• Jasmine\n\n🪵 BASE NOTES:\n• Musk\n• Patchouli\n• Amber\n\n✨ Fresh and invigorating like an ocean breeze. Perfect for daily wear and summer days. Captures the essence of freedom and energy."
     },
      "tropic golden": {
         img: "men4.jpeg",
         price50: 625,
         price100: 899,
-        notes: "🌿 TOP NOTES:\n• pineapple\n• bergamot\n• grapefruit\n\n🌸 HEART NOTES:\n•  jasmine\n• patchouli\n• cedarwood\n\n🪵 BASE NOTES:\n• Musk\n• clearwood\n• oakmoss\n\n✨ Fresh and invigorating like an ocean breeze. Perfect for daily wear and summer days. Captures the essence of freedom and energy."
+        notes: "TROPIC GOLD inspired by nichane hashivat🌿 TOP NOTES:\n• pineapple\n• bergamot\n• grapefruit\n\n🌸 HEART NOTES:\n•  jasmine\n• patchouli\n• cedarwood\n\n🪵 BASE NOTES:\n• Musk\n• clearwood\n• oakmoss\n\n✨ Fresh and invigorating like an ocean breeze. Perfect for daily wear and summer days. Captures the essence of freedom and energy."
     },
     // WOMEN
     "Amber Dusk": {
         img: "women1.jpg.png",
         price50: 625,
         price100: 899,
-        notes: "🌿 TOP NOTES:\n• Vanilla\n• Lavender\n• Cacao\n\n🌸 HEART NOTES:\n• Vanilla Extract\n\n🪵 BASE NOTES:\n• Vanilla Absolute\n\n✨ Warm, cozy, and irresistibly sweet. A comforting vanilla-centric fragrance that wraps you in elegance. Perfect for cooler evenings and intimate moments."
+        notes: "AMBER DUSK inspired by burberry goddess🌿 TOP NOTES:\n• Vanilla\n• Lavender\n• Cacao\n\n🌸 HEART NOTES:\n• Vanilla Extract\n\n🪵 BASE NOTES:\n• Vanilla Absolute\n\n✨ Warm, cozy, and irresistibly sweet. A comforting vanilla-centric fragrance that wraps you in elegance. Perfect for cooler evenings and intimate moments."
     },
     "the pink peak": {
         img: "women2.jpg.jpeg",
         price50: 625,
         price100: 899,
-        notes: "🌿 TOP NOTES:\n• Lychee\n• Pink Pepper\n• Bergamot\n\n🌸 HEART NOTES:\n• Turkish Rose\n• Peony\n• Jasmine\n\n🪵 BASE NOTES:\n• Amber\n• Musk\n• Vetiver\n\n✨ A romantic floral bouquet with a modern twist. Feminine, fresh, and utterly captivating. Ideal for spring days and romantic occasions."
+        notes: "the pink peak inspired by arrogate pink🌿 TOP NOTES:\n• Lychee\n• Pink Pepper\n• Bergamot\n\n🌸 HEART NOTES:\n• Turkish Rose\n• Peony\n• Jasmine\n\n🪵 BASE NOTES:\n• Amber\n• Musk\n• Vetiver\n\n✨ A romantic floral bouquet with a modern twist. Feminine, fresh, and utterly captivating. Ideal for spring days and romantic occasions."
     },
     "velvet sin": {
         img: "women3.jpg.jpeg",
         price50: 625,
         price100: 899,
-        notes: "🌿 TOP NOTES:\n• Bitter Almond\n• Anise\n• Mandarin\n\n🌸 HEART NOTES:\n• Jasmine\n• Orange Blossom\n• Tuberose\n\n🪵 BASE NOTES:\n• Tonka Bean\n• Vanilla\n• Sandalwood\n\n✨ A seductive and addictive gourmand fragrance. Deep, mysterious, and irresistibly alluring. Perfect for evening wear and special dates."
+        notes: "velvet sin inspired by hyponitic pioson🌿 TOP NOTES:\n• Bitter Almond\n• Anise\n• Mandarin\n\n🌸 HEART NOTES:\n• Jasmine\n• Orange Blossom\n• Tuberose\n\n🪵 BASE NOTES:\n• Tonka Bean\n• Vanilla\n• Sandalwood\n\n✨ A seductive and addictive gourmand fragrance. Deep, mysterious, and irresistibly alluring. Perfect for evening wear and special dates."
     },
     "italian love": {
         img: "women4.jpg.jpeg",
         price50: 625,
         price100: 899,
-        notes: "🌿 TOP NOTES:\n• Mandarin\n• Bergamot\n• Pink Pepper\n\n🌸 HEART NOTES:\n• White Floral\n• Coconut\n• Jasmine\n\n🪵 BASE NOTES:\n• Citrus Vanilla\n• Tropical Vanilla Absolute\n• Animalic Notes\n\n✨ A Mediterranean escape in a bottle. Sunny, creamy, and joyful. Perfect for summer vacations and carefree days. Brings the warmth of Italian summers wherever you go."
+        notes: "italian love inspired by valentino born in roma dunna🌿 TOP NOTES:\n• Mandarin\n• Bergamot\n• Pink Pepper\n\n🌸 HEART NOTES:\n• White Floral\n• Coconut\n• Jasmine\n\n🪵 BASE NOTES:\n• Citrus Vanilla\n• Tropical Vanilla Absolute\n• Animalic Notes\n\n✨ A Mediterranean escape in a bottle. Sunny, creamy, and joyful. Perfect for summer vacations and carefree days. Brings the warmth of Italian summers wherever you go."
     }
 };
 
